@@ -1,0 +1,106 @@
+.body{
+    margin:3rem;
+    /* margin-top:8rem; */
+}
+
+.body_container{
+    display:flex;
+    /* gap:3.5rem; */
+}
+
+.body_container img{
+    height:33rem;
+    width:35rem;
+    margin-top:4.5rem;
+    
+} 
+
+.body_info{
+    margin-top:6rem;
+}
+
+.body_info p{
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5;
+    margin-top:1.5rem;
+}
+
+.body_header{
+    margin-left:3rem;
+}
+
+/* .body_text{
+    display: flex;
+    flex-direction: r;
+} */
+
+/* .data_category{
+    display: flex;
+    gap:10px;
+    margin-right: 10rem;
+    
+} */
+
+/* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-auto-rows: 1fr; */
+
+.body_text{
+    display: flex;
+    flex: 1 1;
+    padding:2rem;
+    gap:2rem;
+    margin-left:10px;
+    
+
+}
+
+.body_text_left{
+    display: flex;
+    flex-direction: column;
+    line-height:1.8;
+}
+
+.body_text_left div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body_text_right{
+    display: flex;
+    flex-direction: column;
+    line-height:1.8;
+}
+
+.body_text_right div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn button{
+    padding:1rem;
+    background: #800020;
+    border-radius: 2rem;
+    width:13.5em;
+    height: 3.5rem;
+    color:white;
+    outline: none;
+    border: none;
+}
+
+.btn Link{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.btn button:hover{
+    background: transparent;
+    border:2px solid #800020;
+    cursor: pointer;
+    transition: 1s;
+    color:#800020;
+}

@@ -1,0 +1,173 @@
+.open_Pop_Up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    background-color: rgb(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    font-family: 'Works sans', sans-serif;
+    overflow: auto;
+}
+
+.login_form{
+    background-color: #FFFFFF;
+    padding: 30px 45px;
+    width: 400px;
+    max-width: 90vw;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.close_login_btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.closeIcon{
+    cursor: pointer;
+    
+}
+
+.closeIcon:hover{
+    background: rgb(128, 0, 32, 0.6);
+    border-radius: 50%;
+    
+}
+
+/* .close_login_btn button{
+    width: 2rem;
+    height: 1.8rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+} */
+
+.close_login_btn span{
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 20px ;
+    padding-top:15px;
+    /* padding:15px 0px 15px 13px; */
+    color:#800020;
+}
+
+.email_login{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    /* padding:0px 0px 15px 15px; */
+}
+
+.email_login input,
+.password_login input{
+    outline: 0;
+    padding: 13px 10px;
+    outline: 0px;
+    border: 1px solid #800020;
+    box-shadow: 0px;
+    transition: box-shadow 500ms;
+    border-radius: 3px;
+}
+
+.password_login{
+    margin-top:10px;
+    gap:7px;
+}
+
+.email_login input:focus,
+.password_login input:focus{
+    box-shadow: 0px 0px 3px 2px #800020;
+}
+
+.password_login{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.forgot .for_pass:hover{
+    color:#800020;
+}
+
+.login_btn{
+    margin-top:20px;
+    background-color: #800020;
+    border-radius: 5px;
+}
+
+.login_btn button{
+    width:100%;
+    padding:13px;
+    background:none;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    font-size:16px;
+}
+
+.or_tag{
+    display: flex;
+    align-items: center;
+    margin:10px 0px;
+    gap: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.line_Or{
+    content: "";
+    /* width:100px; */
+    flex-grow: 1;
+    height:1px;
+    background: rgb(128, 0, 32, 0.4);
+}
+
+.google_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #000;
+    border-radius: 5px;
+}
+
+.google_btn img{
+    padding-left:14px ;
+    /* gap:14px; */
+}
+
+.google_btn button{
+    width: 100%;
+    padding:12px 12px 12px 0px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    background: none;
+    color:#fff;
+    font-size:15.5px;
+}
+
+.sign_Up{
+    padding-top: 14px;
+
+}
+.sign_Up span{
+    cursor: pointer;
+}
+
+.terms_of_service{
+    font-size: 14px;
+}
+
+.below_terms{
+    content: '';
+    background-color: #800020;
+    width:100%;
+    
+}
